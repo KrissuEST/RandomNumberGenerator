@@ -55,7 +55,7 @@ public class ProgramBody extends AddingArray
 
 			if (Arrays.equals(arrayRand,a_Sorted))
 			{
-				JOptionPane.showMessageDialog(null, "RN: " + printOut(arrayRand) + "\n" + "It's in CSV: " + entry.getKey(),
+				JOptionPane.showMessageDialog(null, "Random nr: " + printOut(arrayRand) + "\n" + "It's in CSV " + entry.getKey(),
 						"Combination already exists!", JOptionPane.INFORMATION_MESSAGE);
 				//System.out.println("RN: " + printOut(arrayRand) + entry.getKey() + " Combination already exists");
 				return;

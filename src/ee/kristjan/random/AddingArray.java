@@ -17,7 +17,8 @@ public class AddingArray
 		for (int loop = 0; loop < 6; loop++)
 		{
 			//numGenerator.nextInt(6)) + 1   <-It means that max random number amount can be 6.
-			arrayRand[loop] = Math.abs(numGenerator.nextInt(48)) + 1;
+//			arrayRand[loop] = Math.abs(numGenerator.nextInt(48)) + 1;
+			arrayRand[loop] = Math.abs(numGenerator.nextInt(6)) + 1;
 			for (int loop2=0; loop2<loop; loop2++)
 			{
 				if (arrayRand[loop]==arrayRand[loop2])

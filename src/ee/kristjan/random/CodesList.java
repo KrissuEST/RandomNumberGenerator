@@ -16,7 +16,7 @@ public class CodesList
 	CodesList()
 	{
 		try {
-			BufferedReader input = new BufferedReader(new FileReader("C:/Users/Kristjani-PC/Desktop/DataCombinations.csv"));  //Adding here an address where we will take input csv file.
+			BufferedReader input = new BufferedReader(new FileReader("C:/Users/Kristjani-PC/Desktop/Combinations.csv"));  //Adding here an address where we will take input csv file.
 																	//"J:/Desktop/Text3.csv"
 			String line;
 			int counter = 1;
@@ -33,7 +33,7 @@ public class CodesList
 					splittedInList.add(Integer.valueOf(number.trim()));   //trim() - takes away spaces from the beginning and from the end.
 				}
 				//getB().put("kombinatsioon_" + counter, (Integer[]) splittedInList.toArray());     <- Casting here, casting is not a good practice.
-				getB().put(" kombinatsioon_" + counter, splittedInList.toArray(new Integer[splittedInList.size()]));  //Doing like this, if we don't want casting.
+				getB().put("at line nr_" + counter, splittedInList.toArray(new Integer[splittedInList.size()]));  //Doing like this, if we don't want casting.
 				counter++;																				//size() - it's a function, what returns size of the list.
 			}
 			input.close();   //Closing buffer reader after use.

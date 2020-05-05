@@ -13,6 +13,7 @@ public class MainClass
 	public static void main(String[] args)
 	{
 		ProgramBody body = new ProgramBody();
-		body.start("J:/Desktop/VL_Output.csv");
+//		body.start("J:/Desktop/VL_Output.csv");
+		body.start("C:/Users/Kristjani-PC/Desktop/VL_Output.csv");
 	}
 }
