@@ -16,7 +16,7 @@ public class CodesList
 	CodesList()
 	{
 		try {
-			BufferedReader input = new BufferedReader(new FileReader("C:/Users/Kristjani-PC/Desktop/Combinations.csv"));  //Adding here an address where we will take input csv file.
+			BufferedReader input = new BufferedReader(new FileReader("C:/Users/Kristjan/Desktop/Combinations.csv"));  //Adding here an address where we will take input csv file.
 			
 			String line;
 			int counter = 1;
